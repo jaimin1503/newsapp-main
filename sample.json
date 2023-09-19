@@ -1,0 +1,71 @@
+{
+	"status": "ok",
+	"totalResults": 5,
+	"articles": [
+	  {
+		"source": {
+		  "id": "nrk",
+		  "name": "NRK"
+		},
+		"author": "NRK",
+		"title": "Mann død etter skyting i Stockholm",
+		"description": "En mann i 40-årene er bekreftet død etter å ha blitt skutt i Råcksta i Vällingby vest i Stockholm lørdag kveld, melder SVT. Ingen er så langt pågrepet etter skytingen. En stor politiaksjon pågår. Det har vært en rekke skyteepisoder i Stockholm og Uppsala den …",
+		"url": "https://www.nrk.no/nyheter/mann-dod-etter-skyting-i-stockholm-1.16560460",
+		"urlToImage": "https://static.nrk.no/kartoteket/01HAG0DJ0J47BJD336Q8FZ3S6X/F169/1000w.png",
+		"publishedAt": "2023-09-16T21:52:26Z",
+		"content": "16. september2023kl.23:52En mann i 40-årene er bekreftet død etter å ha blitt skutt i Råcksta i Vällingby vest i Stockholm lørdag kveld, melder SVT.\r\nIngen er så langt pågrepet etter skytingen. En st… [+97 chars]"
+	  },
+	  {
+		"source": {
+		  "id": "the-wall-street-journal",
+		  "name": "The Wall Street Journal"
+		},
+		"author": "Hannah Miao",
+		"title": "Robinhood Wants to Grow Up",
+		"description": "The app at the center of meme-stock frenzy now wants your retirement money",
+		"url": "https://www.wsj.com/finance/investing/robinhood-wants-to-grow-up-1780844e?mod=hp_lead_pos8",
+		"urlToImage": "https://images.wsj.net/im-853290/social",
+		"publishedAt": "2023-09-16T03:00:00Z",
+		"content": null
+	  },
+	  {
+		"source": {
+		  "id": "next-big-future",
+		  "name": "Next Big Future"
+		},
+		"author": "Brian Wang",
+		"title": "Billionaire Insider Ron Baron Reveals Tesla Secrets and Tesla's Future | NextBigFuture.com",
+		"description": "Ron Baron is worth over $5 billion, manages about $45 billion in his stock funds and he and his funds are a top 20 owner in Tesla. He has picked multiple big",
+		"url": "https://www.nextbigfuture.com/2023/09/billionaire-insider-ron-baron-reveals-tesla-secrets-and-teslas-future.html",
+		"urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2023/09/Screen-Shot-2023-09-13-at-1.40.40-PM.jpg",
+		"publishedAt": "2023-09-13T21:23:23Z",
+		"content": "Ron Baron is worth over $5 billion, manages about $45 billion in his stock funds and he and his funds are a top 20 owner in Tesla. He has picked multiple big winners in Tesla, SpaceX, Gartner, Arch a… [+2453 chars]"
+	  },
+	  {
+		"source": {
+		  "id": "financial-post",
+		  "name": "Financial Post"
+		},
+		"author": "Financial Post",
+		"title": "Financial Post",
+		"description": "Stay up to date on the latest news, research and market updates on Canadian investments and stocks.",
+		"url": "http://business.financialpost.com/category/investing/",
+		"urlToImage": "https://dcs-static.gprod.postmedia.digital/13.5.3/websites/images/fp/ogimage-fp.png",
+		"publishedAt": "2023-05-17T20:37:35.4307753Z",
+		"content": null
+	  },
+	  {
+		"source": {
+		  "id": "fortune",
+		  "name": "Fortune"
+		},
+		"author": "Kevin Kelleher",
+		"title": "Buybacks vs dividends? In market downturns, the rules may change",
+		"description": "CFOs can return profits to shareholders with dividends and buybacks. Here's how they may fare during a stock market selloff or recession.",
+		"url": "https://fortune.com/2022/06/01/buybacks-vs-dividends-stock-market-downturns-recession-cfo-daily-newsletter/",
+		"urlToImage": "https://content.fortune.com/wp-content/uploads/2022/05/GettyImages-1310316502.jpg?resize=1200,600",
+		"publishedAt": "2022-06-01T10:15:00Z",
+		"content": "Skip to Content"
+	  }
+	]
+  }

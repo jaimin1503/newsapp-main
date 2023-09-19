@@ -18,6 +18,8 @@ export class News extends Component {
     super();
     console.log('i Am constructor');
     this.state = {
+
+      
       articles : [],
       loading : false,
 	    page: 1

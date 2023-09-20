@@ -1,0 +1,12 @@
+.card{
+	height: 70vh;
+}
+.card img{
+	height: 40%;
+	object-fit: cover;
+}
+
+.descri{
+	height: 52px;
+	overflow: hidden;
+}

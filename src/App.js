@@ -22,7 +22,7 @@ export default class App extends Component {
                 <News
                   key="general"
                   pageSize={this.pageSize}
-                  country={"in"}
+                  country={"in"} 
                   category={"general"}
                 />
               }

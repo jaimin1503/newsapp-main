@@ -13,7 +13,6 @@ export default class App extends Component {
       <>
         <Router>
           <NavBar />
-          {/* <News pageSize={8} country={'in'} category={'sports'}/> */}
           <Routes>
             <Route
               exact

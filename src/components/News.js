@@ -7,7 +7,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 export class News extends Component {
   static defaultProps = {
     country : 'in',
-    pageSize : 8,
+    pageSize : 6,
     category : 'general'
   }
   static propTypes = {
@@ -41,15 +41,25 @@ export class News extends Component {
   }
 
   async componentDidMount(){
-	  this.updatePage();
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=5549b4223c5842d993e830a4d910b30c&page=${this.state.page}&pageSize=${this.props.pageSize}`
+    this.setState({loading:true});
+	  let data = await fetch(url);
+	  let parsedData = await data.json()
+    this.setState({
+      articles : parsedData.articles,
+      totalResults : parsedData.totalResults,
+      loading: false,
+    })
   }
 
   fetchMoreData = async () => {
 
     this.setState({
-      page: this.state.page + 1
+      page: this.state.page + 1,
     });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=5549b4223c5842d993e830a4d910b30c&page=${this.state.page}&pageSize=${this.props.pageSize}`
+
+
+  const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=5549b4223c5842d993e830a4d910b30c&page=${this.state.page}&pageSize=${this.props.pageSize}`
   let data = await fetch(url);
   let parsedData = await data.json()
   this.setState({
@@ -72,7 +82,7 @@ export class News extends Component {
       <div className="container">
         <div className="row">
           {this.state.articles.map((element)=>{ 
-            return <div className="col-md-4" key={element.description}>
+            return <div className="col-md-4" key={element.url}>
               <NewsItems title={element.title?element.title:""} description={element.description?element.description:""} imageUrl = {element.urlToImage} newsUrl = {element.url} author = {element.author} date = {element.publishedAt}/>
             </div>
           })}
